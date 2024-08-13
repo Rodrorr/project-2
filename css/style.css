@@ -1,0 +1,48 @@
+/* =======
+nav bar start
+========== */
+
+.navbar{
+    padding: 18px 0;
+}
+
+.nav-link{
+    color: #00413D;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    transition: .4s;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.nav-link:hover{
+    color: #E5745D;
+    
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.nav-btn {
+    background: #E5745D;
+    padding: 14px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    position: relative;
+
+}
+.nav-btn::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border: 1px solid white;
+}
+
+/* ====
+nav bar end
+======== */
