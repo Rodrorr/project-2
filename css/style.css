@@ -3,6 +3,7 @@ nav bar start
 ========== */
 
 .navbar{
+    width: 100%;
     padding: 18px 0;
 }
 
@@ -36,13 +37,115 @@ nav bar start
 .nav-btn::before {
     content: '';
     position: absolute;
-    top: 6px;
-    left: 6px;
-    right: 6px;
-    bottom: 6px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
     border: 1px solid white;
 }
 
 /* ====
 nav bar end
 ======== */
+
+
+
+/* ====
+banner part start
+======== */
+
+.banner{
+    width: 100%;
+    height: 850px;
+    background-image: url(../img/bannerbackground.png);
+    position: relative;
+}
+.overlay{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right:-35%;
+    transition: 1s;
+}
+.banner:hover .overlay{
+    right: 0;
+    background-image: url(../img/modelpic.jpg);
+
+}
+.banner-left h2{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    color: #fff;
+    padding-top: 220px;
+    padding-bottom: 14px;
+}
+.banner-left h2 span{
+    display: block;
+}
+.banner-left p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #837b7b;
+    padding-bottom: 50px;
+    width: 670px;
+}
+.banner-left p span{
+    font-weight: 500;
+    color: #fff;
+}
+
+.banner-left .btn-size{
+    width: 180px;
+    height: 65px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+
+
+/* ====
+banner part  end
+======== */
+
+/* ====
+Services part  start
+======== */
+
+.Service-part{
+    padding-top: 220px;
+    padding-bottom: 120px;
+}
+.Service-part .container h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    color: #E5745D;
+    text-align: center;
+    padding-bottom: 11px;
+}
+.Service-part .container h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+    text-align: center;
+    line-height: 60px;
+    width: 517px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+/* ====
+Services part  end
+======== */
+
+
