@@ -117,19 +117,26 @@ banner part  end
 /* ====
 Services part  start
 ======== */
+.service-line{
+    position: relative;
+    left: 43%;
+    
+}
+.service-line h4{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: #E5745D;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+}
 
 .Service-part{
     padding-top: 220px;
     padding-bottom: 120px;
 }
-.Service-part .container h3{
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Vollkorn", serif;
-    color: #E5745D;
-    text-align: center;
-    padding-bottom: 11px;
-}
+
 .Service-part .container h2{
     font-size: 50px;
     font-weight: 500;
@@ -140,6 +147,7 @@ Services part  start
     width: 517px;
     margin: auto;
     margin-bottom: 40px;
+    padding-top: 11px;
 }
 .service-card img{
     width: 68px;
@@ -179,7 +187,7 @@ Services part  start
     padding-top: 50px;
     padding-bottom: 50px;
     border: 0;
-    box-shadow: 6px -6px 20px 15px rgb(169 160 160);
+    box-shadow: 7px 5px 29px -6px rgba(0,0,0,0.75);
     border-radius: 0;
 }
 .card-body{
@@ -327,6 +335,7 @@ project part  start
 }
 .project-sbtn{
     flex-wrap: nowrap;
+    
 }
 .project-sbtn i{
     font-size: 20px;
@@ -335,16 +344,19 @@ project part  start
     background: #E5745D;
     color: #fff;
 }
+
 .project-sbtn h2{
     font-size: 50px;
     font-weight: 500;
     font-family: "Vollkorn", serif;
     color: #00413D;
     padding-top: 8px;
+    width: 91%;
 }
 .project-card{
     border: 0;
     border-radius: none;
+    box-shadow: 7px 5px 29px -6px rgba(0,0,0,0.75);
 }
 .project-card img{
     width: 100%;
@@ -398,9 +410,96 @@ project part  start
 .Project-part .common-btn{
     justify-content: center;
 }
-
+.Project-part{
+    padding-bottom: 120px;
+}
 /* ====
 project part  end
+======== */
+
+
+
+/* ====
+portfolio part  start
+======== */
+
+.Portfolio .service-line{
+    position: relative;
+    left: 43%;
+    
+}
+.Portfolio .service-line h4{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: #E5745D;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+}
+.top-box{
+    text-align: center;
+    padding-bottom: 44px;
+}
+.Portfolio .top-box h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+    padding-top: 11px;
+}
+.top-box ul{
+    list-style: none;
+    justify-content: center;
+    column-gap: 36px;
+
+}
+
+.top-box li{
+    font-size: 16px;
+    color: #00413D;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    transition: .5s;
+    border-bottom: 2px solid transparent;
+}
+.top-box li:hover{
+    border-bottom: 2px solid #E5745D;
+}
+.Portfolio-card .card-body{
+    background: #00413D;
+    padding-left: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+.Portfolio-card .card-body h5{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Vollkorn", serif;
+    color: #fff;
+    
+    
+}
+.Portfolio-card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    
+}
+.Portfolio-card .card{
+    height: 520px;
+    margin-bottom: 30px;
+}
+.Portfolio-card .card img{
+    height: 100%;
+}
+
+
+/* ====
+portfolio part  end
 ======== */
 
 
