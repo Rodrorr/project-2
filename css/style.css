@@ -357,6 +357,7 @@ project part  start
     border: 0;
     border-radius: none;
     box-shadow: 7px 5px 29px -6px rgba(0,0,0,0.75);
+    padding-bottom: 30px;
 }
 .project-card img{
     width: 100%;
@@ -578,9 +579,13 @@ Testimonial part  end
 /* ====
 Contract  part  start
 ======== */
+.Contract-part{
+    margin-bottom: 120px;
+}
 .Contract-part .about-line{
     position: relative;
 }
+
 .Contract-part .about-line h4{
     position: absolute;
     top: 5px;
@@ -593,6 +598,9 @@ Contract  part  start
 .Contract-part .Avatar{
     width: 470px;
     height: 586px;
+}
+.left-part{
+    padding: 53px 0;
 }
 .Contract-part .left-part h3{
     font-size: 50px;
@@ -607,18 +615,201 @@ Contract  part  start
     row-gap: 30px;
     column-gap: 29px;
     width: 100%;
+    padding-top: 40px;
 }
 .from-box .input{
     width: 48%;
     border: none;
-    border-bottom: 2px solid #00413D;
+    border-bottom: 2px solid rgba(0, 65, 61,0.1);
+    padding: 15px 15px;
+    font-size: 18px;
+    color: rgba(0, 65, 61,0.7);
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
 }
+.from-box .input::placeholder{
+    font-size: 18px;
+    color: rgba(0, 65, 61,0.7);
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
 .from-box .input5{
     width: 100%;
 }
 
+.Contract-part .contact-btn{
+    width: 173px;
+    height: 64px;
+    margin-top: 20px;
+}
+.common-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+}
+
+
 /* ====
 Contract  part  end
+======== */
+
+/* ====
+blog  part  start
+======== */
+
+.Blog-part{
+    padding-bottom: 120px;
+}
+.Blog-part .Blogs-line{
+    position: relative;
+    left: 43%;
+    
+}
+.Blog-part .Blogs-line h4{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: #E5745D;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+}
+.Blog-part h2{
+    color: #00413D;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 40px;
+}
+
+.blog-card{
+    border: 0;
+    border-radius: none;
+    box-shadow: 7px 5px 29px -6px rgba(0,0,0,0.75);
+    padding-bottom: 30px;
+}
+.blog-card img{
+    width: 100%;
+
+}
+.blog-card h5{
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #E5745D;
+    padding-top: 20px;
+}
+.blog-card h6{
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #00413D;
+    padding-top: 20px;
+}
+
+.blog-card h4{
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    color: #00413D;
+    width: 281px;
+    line-height: 30px;
+}
+.blog-card p{
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #00413D;
+    line-height: 24px;
+    width: 325px;
+}
+.blog-card a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: #00413D;
+    padding-top: 24px;
+}
+.blog-card a:hover{
+    color: #E5745D;
+}
+.blog-card .card-body{
+    padding-left: 30px;
+    padding-right: 36px;
+}
+.card-body .blog-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-card .row{
+    padding-bottom: 60px;
+}
+
+/* ====
+blog  part  end
+======== */
+
+
+/* ====
+footer  part  start
+======== */
+.footer-part {
+    background: #00413D;
+    height: 474px;
+}
+.footer-part .box {
+    text-align: center;
+    padding-top: 80px;
+}
+.footer-part .ul-one{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+    padding-top: 60px;
+}
+.footer-part .ul-one li{
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 33px;
+    color: #FFFFFF;
+}
+.footer-part .ul-one li:last-child{
+    border-right:none;
+}
+
+.ul-two{
+    list-style: none;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.1);
+    
+}
+.ul-two li{
+    background: #E5745D;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 19px;
+}
+
+.ul-two i{
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.footer-part .Copyright{
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    color: rgba(255, 255, 255,0.7);
+    padding-top: 30px;
+}
+/* ====
+footer  part  end
 ======== */
 
 
